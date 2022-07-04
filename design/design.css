@@ -1,0 +1,32 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#container{
+    height: 100vh;
+    width: auto;
+}
+
+#mapa {
+    height: 80vh;
+    width: 80vw;
+    margin: 64px auto;
+    border-radius: 12px;
+}
+
+#buscar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-sm{
+    color: gray;
+    border-radius: 4px;
+    outline: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
