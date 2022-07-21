@@ -100,7 +100,7 @@ class UI {
 
     // filtro de datos
     filtrarDatos(arregloDepartamentos, busqueda) {
-        const filtro = arregloDepartamentos.filter(filtro => filtro.Departamento.indexOf(busqueda) !== -1);
+        const filtro = arregloDepartamentos.filter(filtro => filtro.Departamento.indexOf(busqueda) !== -1 || filtro.Nombre.indexOf(busqueda) !== -1);
 
         // Mostrar pines del Filtro
         this.mostrarPins(filtro);
